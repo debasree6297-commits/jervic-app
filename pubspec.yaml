@@ -1,0 +1,24 @@
+name: jervic_app
+description: JERVIC AI Voice Assistant - Iron Man Style
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  google_generative_ai: ^0.4.0
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.0.2
+  flutter_background_service: ^5.0.5
+  permission_handler: ^12.0.0
+  flutter_phone_direct_caller: ^2.1.1
+  flutter_contacts: ^1.1.9+1
+  url_launcher: ^6.3.0
+  shared_preferences: ^2.3.0
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+  http: ^1.2.0
+  vibration: ^3.1.0
+flutter:
+  uses-material-design: true
